@@ -1,0 +1,485 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500;600;800;900&display=swap");
+
+body {
+  font-family: 'Exo', sans-serif;
+  
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+}
+.container{
+  margin: 0 auto;
+  width: 100%;
+  max-width: 970px;
+  padding: 0 10px;
+
+}
+header{
+  background-color: #0A0A0B;
+ 
+
+}
+.navigator {
+    padding: 29px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-list-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  gap: 48px;
+  a{
+    color: #ffffff;
+  }
+}
+
+/* home pages */
+
+
+.home-page {
+  
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 72px;
+  
+}
+.home-title{
+  line-height: 600;
+  font-size: 36px;
+  line-height: 140%;
+  margin-bottom: 20px;
+ 
+}
+.car-name{
+  margin-bottom: 8px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 140%;
+
+  
+}
+.car-type{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  margin-bottom: 48px;
+  color: #BABEC4;
+  gap: 7.33;
+  
+
+}
+.car-img {
+  margin-bottom: 40.78px;
+  
+}
+.charcter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 104px;
+  margin-bottom: 56px;
+
+  img{
+    margin-bottom: 16px;
+  }
+
+  h4{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 140%;
+    margin-bottom: 4px;
+  }
+
+  p{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 140%;
+    color: #888B91;
+  }
+}
+.temperature {
+  
+}
+.mileage {
+}
+.battery {
+}
+.start-btn {
+
+}
+ 
+/* in-car-pages */
+
+main{
+  background-color: #0A0A0B;
+}
+.in-car {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 72px; */
+  gap: 88px;
+  padding: 72px 28px 88px 28px;
+  color: white;
+  
+  
+
+}
+.in-cars-title{
+margin-bottom: 24px;
+color: #F1F2F3;
+font-weight: 600;
+font-size: 24px;
+line-height: 140%;
+width: 209px;
+}
+
+.in-cars-p{
+  margin-bottom: 48px;
+  color: #BABEC4;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  width: 401px;
+
+}
+
+.in-car-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  img{
+    border-radius: 8px;
+  }
+  p{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 140%;
+  }
+  .num{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+  }
+
+}
+.in-about {
+  width: 197px;
+  display: flex;
+  flex-direction: column;
+  margin-top: -10%;
+  
+  align-items: center;
+  gap: 8px;
+  background-color: rgb(255, 255, 255, 0.2);
+  
+  padding: 16px 20px;
+  border-radius: 20px;
+  
+}
+.in-cars-text {
+  
+}
+.in-car-btn {
+  color: #FFFFFF;
+  background-color: #4177DC;
+  border-radius: 4px;
+  padding: 14px 32px;
+}
+
+
+.brand-page {
+  color: white;
+  display: flex;
+  flex-direction: column;
+
+}
+.brand-title {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 64px;
+  margin-top: 72px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 140%;
+  
+}
+
+.brandcar-card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.card {
+  background-image: url(./image/brand-button.svg);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-color: #111213;
+  border-radius: 20px;
+  padding: 32px 21.5px 24px 24.5px;
+  h2{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 140%;
+  }
+  
+}
+.positsion{
+  margin-bottom: 12px;
+  color: #BABEC4;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+}
+.brand-img{
+  padding-left: 32px;
+  margin-bottom: 20.36px;
+}
+
+.brand-character {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 31px;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 140%;
+  
+}
+.helper{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+
+}
+.price-car {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 140%;
+  
+}
+
+.scroll {
+  margin-top: 48px;
+  margin-bottom: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.scroll-off{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.first-scroll {
+  width: 8px;
+  height: 8px;
+  background-color: #4177DC;
+  border-radius: 50%;
+}
+.second-scroll {
+  width: 6px;
+  height: 6px;
+  background-color: #BABEC4;
+  border-radius: 50%;
+}
+
+.map-page{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #0A0A0B;
+  color: white;
+  
+  /* margin-top: ; */
+  background-image: url(./image/map-page.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-size: ; */
+}
+
+
+
+.map-page {
+  margin-top: 66px;
+  
+}
+.map-road-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 140%;
+  color: #F1F2F3;
+  
+}
+.feature-comment {
+  margin-top: 64px;
+  margin-bottom: 86px;
+}
+.battery-log {
+  
+ 
+}
+.km-travel {
+  
+}
+.km-range {
+  
+}
+
+
+
+.different-car-pages {
+    
+  padding: 72px 0 72px 0;
+    color: #F1F2F3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.different-car-title {
+  margin-bottom: 48px;
+  
+}
+.emblem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  margin-bottom: 72px;
+}
+.all-btn {
+  padding: 15px 16px;
+  background-color: #4177DC;
+  color: #F1F2F3;
+  border-radius: 16px;
+}
+.tesla-btn {
+  padding: 11px;
+  background-color: #111213;
+  border-radius: 16px;
+}
+.audi-btn {
+  padding: 21px 11px;
+  background-color: #111213;
+  border-radius: 16px;
+}
+.porsche-btn {
+  padding: 11px;
+  background-color: #111213;
+  border-radius: 16px;
+}
+
+.different-car-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: center;
+  gap: 72px;
+  
+}
+.different-card {
+  
+  background-color: #111213;
+  padding: 32px 24px;
+  border-radius: 20px;
+  background-image: url(./image/model-btn.svg);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+.different-car-name {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 140%;
+
+}
+.different-car-model {
+  color: #BABEC4;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  margin-bottom: 32px;
+}
+.different-car-img {
+  margin-bottom: 38.23px;
+  padding-right: 28px;
+}
+.different-car-price {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 140%;
+}
+
+
+
+.subscribe-page {
+  color: #F1F2F3;
+  padding: 72px 0 56px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url(./image/subscribe-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  gap: 80px;
+
+}
+.first {
+}
+.subscribe-title {
+  margin-bottom: 32px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 140%;
+}
+.subscribe-text {
+  margin-bottom: 48px;
+  color: #BABEC4;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+}
+.subscribe-btn {
+  padding: 14px 32px;
+  background-color: #4177DC;
+  border-radius: 4px;
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+}
+.second {
+}
+
+.logotiplar{
+  padding: 76px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 106px;
+}
