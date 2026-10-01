@@ -45,6 +45,11 @@ header{
 
 /* home pages */
 
+header{
+  background-image: url(./image/home-shape-left.png), url(./image/home-shape-right.png);
+  background-repeat: no-repeat;
+  background-position: left top, right bottom;
+}
 
 .home-page {
   
@@ -231,9 +236,9 @@ width: 209px;
   align-items: center;
 }
 .card {
-  background-image: url(./image/brand-button.svg);
+  background-image: url(./image/brand-left-top-shape.png);
   background-repeat: no-repeat;
-  background-position: right bottom;
+  background-position: left top;
   background-color: #111213;
   border-radius: 20px;
   padding: 32px 21.5px 24px 24.5px;
@@ -408,9 +413,9 @@ width: 209px;
   background-color: #111213;
   padding: 32px 24px;
   border-radius: 20px;
-  background-image: url(./image/model-btn.svg);
+  background-image: url(./image/model-shape.png);
   background-repeat: no-repeat;
-  background-position: right bottom;
+  background-position: center;
 }
 .different-car-name {
   font-weight: 600;
@@ -482,4 +487,106 @@ width: 209px;
   align-items: center;
   justify-content: center;
   gap: 106px;
+}
+
+footer{
+  background-color: #0A0A0B;
+  color: #F1F2F3;
+  background-image: url(./image/footer-left-shape.png), url(./image/footer-right-shape.png);
+  background-repeat: no-repeat;
+  background-position: left top, right bottom;
+}
+.footer-page {
+  
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content:center;
+  align-items: center;
+  padding: 72px 0 32px 0;
+
+  a{
+    color: #BABEC4;
+  }
+
+
+}
+.first-footer {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 166px;
+  width: 198px;
+}
+.elecar {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 27.8px;
+  
+  
+}
+.elecar-logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10.73px;
+}
+.elecar-text{
+  color: #BABEC4;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 140%;
+  width: 198px  ;
+}
+.logo-title {
+  margin-bottom: 24px;
+}
+.company {
+  width: 88px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  justify-content: center;
+  align-items: start;
+  
+}
+.company-title{
+  margin-bottom: 12px;
+  
+
+}
+.information {
+  width: 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  justify-content: center;
+  align-items: start;
+}
+.information-title{
+  width: 120px;
+  margin-bottom: 12px;
+}
+.social-media {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 24px;
+}
+.social-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 26px;
+}
+.second-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  color: #888B91;
+  margin-top: 98px;
 }
